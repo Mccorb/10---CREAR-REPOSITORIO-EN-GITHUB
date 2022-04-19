@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Backgruoung */ 
+
+body { 
+    background-color: black;
+}
+
+/* Navbar*/
+
+nav {
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    line-height: 30px;
+}
+
+a {
+    background-color:black;
+    padding: 5px 10px;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: black;
+    color: blue;
+}
+
+/* Main */ 
+
+.principalContent {
+    background-image:url(../img/bg_home.png);
+    height: 600px;
+    color: blue;
+    font-family: Tahoma;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* BIO */
+
+#bio {
+    width: 100%;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.bio {
+    font-family: 'Lato', sans-serif;
+    color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* WORK */
+
+
+/* Trabajos foto y descripción */
+
+.contenido {
+    display: inline;
+    color: whitesmoke;
+    margin: 10px 10px 10px 10px;
+}
+
+/* SOCIAL MEDIA */ 
+
+
+
+/* CONTACT */
+
+
+/* Box Contacto */
+
+.contacto {
+    color: red;
+    font-family: Tahoma;
+    
+}
+
+
+/* footer */
+
+.footer {
+    margin-top: 10px;
+    margin-left: auto;
+    color: whitesmoke;
+    font-family:'Lato', sans-serif;
+    display: block;
+}

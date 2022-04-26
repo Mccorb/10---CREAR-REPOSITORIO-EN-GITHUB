@@ -36,7 +36,9 @@
     color: whitesmoke;
     font-family: 'Lato', sans-serif;
     margin-right: 830px;
+    animation: fadeIn 3s;
 }
+
 
 
 .menu ul {
@@ -52,12 +54,14 @@
 
 .menu ul li a{
     color: whitesmoke;
-    text-decoration: none;
+    text-decoration: none;    
 }
 
-.menu ul li a:hover {
+.menu ul li a:hover{
     color: blue;
+ 
 }
+
 
 
 /* Inicio de pagina index */
@@ -88,12 +92,15 @@
     text-decoration: none;
     display: inline-block;
     padding: 5px 5px 5px 5px;
-
+    animation-name: example;
+    animation-duration: 4s;
 }
 
-.redes a:hover {
-    color: blue;
+@keyframes example {
+    from {color: whitesmoke;}
+    to {color: red;}
 }
+
 
 
 /* CONTACT HTML */ 
